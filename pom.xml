@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.github.chentianming11</groupId>
+    <artifactId>mybatis-demo</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <lombok.version>1.16.10</lombok.version>
+        <junit.version>4.12</junit.version>
+        <spring-boot.version>2.1.1.RELEASE</spring-boot.version>
+        <quartz.version>2.3.1</quartz.version>
+        <dubbo.version>2.7.2</dubbo.version>
+        <dubbo-starter.version>2.7.1</dubbo-starter.version>
+        <curator.version>2.12.0</curator.version>
+        <spring.version>5.2.3.RELEASE</spring.version>
+        <guava.version>27.0.1-jre</guava.version>
+        <mysql-connector.version>8.0.15</mysql-connector.version>
+        <mybatis.version>3.5.1</mybatis.version>
+        <c3p0.version>0.9.5.4</c3p0.version>
+        <mybatis-redis.version>1.0.0-beta2</mybatis-redis.version>
+        <mybatis-generator.version>1.3.5</mybatis-generator.version>
+        <mybatis-spring.version>2.0.0</mybatis-spring.version>
+        <mybatis-boot.version>1.3.1</mybatis-boot.version>
+        <db-util.version>1.7</db-util.version>
+        <hikari.version>3.2.0</hikari.version>
+        <druid.version>1.1.15</druid.version>
+        <snake-yaml.version>1.25</snake-yaml.version>
+        <h2.version>1.2.132</h2.version>
+        <hibernate.version>5.3.6.Final</hibernate.version>
+        <servlet-api.version>3.1.0</servlet-api.version>
+        <aspectj.version>1.8.6</aspectj.version>
+        <fastjson.version>1.2.58</fastjson.version>
+        <bean-util.version>1.9.3</bean-util.version>
+        <common-io.version>2.6</common-io.version>
+        <kafka-clients.version>2.0.0</kafka-clients.version>
+        <protostuff.version>1.5.4</protostuff.version>
+        <quartz.version>2.3.0</quartz.version>
+        <sharding-jdbc-boot.version>3.1.0</sharding-jdbc-boot.version>
+        <sentinel.version>1.6.3</sentinel.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>${mybatis.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql-connector.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.mchange</groupId>
+            <artifactId>c3p0</artifactId>
+            <version>${c3p0.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mybatis.caches</groupId>
+            <artifactId>mybatis-redis</artifactId>
+            <version>${mybatis-redis.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-dbutils</groupId>
+            <artifactId>commons-dbutils</artifactId>
+            <version>${db-util.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zaxxer</groupId>
+            <artifactId>HikariCP</artifactId>
+            <version>${hikari.version}</version>
+        </dependency>
+
+        <!--MBG-->
+        <dependency>
+            <groupId>org.mybatis.generator</groupId>
+            <artifactId>mybatis-generator-core</artifactId>
+            <version>${mybatis-generator.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>${druid.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-spring</artifactId>
+            <version>${mybatis-spring.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${fastjson.version}</version>
+        </dependency>
+
+        <!--日志-->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.26</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.3</version>
+        </dependency>
+    </dependencies>
+</project>
